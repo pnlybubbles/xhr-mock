@@ -10,6 +10,8 @@ module.exports = {
 
 	XMLHttpRequest: MockXMLHttpRequest,
 
+	THROUGH_TO_REAL_XHR: MockXMLHttpRequest.THROUGH_TO_REAL_XHR,
+
 	/**
 	 * Replace the native XHR with the mocked XHR
 	 * @returns {exports}
